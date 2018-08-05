@@ -1,0 +1,416 @@
+
+
+/*------------------------------------------------------------------
+* dynamic-style.php index *
+[Table of contents]
+
+1.  Background color
+2.  Topbar Background color
+3.  Element Border color
+4.  Textcolor
+5.  Boxshadow
+6.  Header / Footer background color
+7.  Footer background color
+8.  Logo Color
+9.  Genral Elements
+10. "Center Logo Between Menu" options
+
+-------------------------------------------------------------------*/
+
+
+
+/**
+ * 0. Background properties
+ * ----------------------------------------------------------------------------
+ */
+body{background-color:#f8f8f8;}
+body > .tm-bg-layer{background-color:#f8f8f8;}
+ body #main{background-color:#ffffff;}
+body #main > .tm-bg-layer{background-color:#ffffff;}
+ div.thememount-fbar-box-w{background-color:#222;}
+div.thememount-fbar-box-w > .tm-bg-layer{background-color:#222;}
+  ul.nav-menu li ul, div.nav-menu > ul .children, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu a:hover, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu li:hover > a, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu a, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu a.mega-menu-link:hover, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu li:hover > a.mega-menu-link, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu a.mega-menu-link{background-color:#222;}
+ul.nav-menu li ul, div.nav-menu > ul .children, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu a:hover, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu li:hover > a, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu a, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu a.mega-menu-link:hover, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu li:hover > a.mega-menu-link, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu a.mega-menu-link > .tm-bg-layer{background-color:#222;}
+  div#first-footer{background-color:transparent;}
+div#first-footer > .tm-bg-layer{background-color:transparent;}
+  div#bottom-footer-text{background-color:transparent;}
+div#bottom-footer-text > .tm-bg-layer{background-color:transparent;}
+ .loginpage{background-color:#222;}
+.loginpage > .tm-bg-layer{background-color:#222;}
+ .uconstruction_background{background-color:#222;}
+.uconstruction_background > .tm-bg-layer{background-color:#222;}
+
+
+
+
+
+/**
+ * 0. Font properties
+ * ----------------------------------------------------------------------------
+ */
+body{font-family:"Open Sans", Arial, Helvetica, sans-serif;font-weight:800;font-size:12px;line-height:14px;color:#000;}
+h1{font-family:"Open Sans", Arial, Helvetica, sans-serif;font-weight:800;font-size:12px;line-height:14px;color:#000;}
+h2{font-family:"Open Sans", Arial, Helvetica, sans-serif;font-weight:800;font-size:12px;line-height:14px;color:#000;}
+h3{font-family:"Open Sans", Arial, Helvetica, sans-serif;font-weight:800;font-size:12px;line-height:14px;color:#000;}
+h4{font-family:"Open Sans", Arial, Helvetica, sans-serif;font-weight:800;font-size:12px;line-height:14px;color:#000;}
+h5{font-family:"Open Sans", Arial, Helvetica, sans-serif;font-weight:800;font-size:12px;line-height:14px;color:#000;}
+h6{font-family:"Open Sans", Arial, Helvetica, sans-serif;font-weight:800;font-size:12px;line-height:14px;color:#000;}
+.tm-element-heading-wrapper .tm-vc_general .tm-vc_cta3_content-container .tm-vc_cta3-content .tm-vc_cta3-content-header h2{font-family:"Open Sans", Arial, Helvetica, sans-serif;font-weight:800;font-size:12px;line-height:14px;color:#000;}
+.tm-element-heading-wrapper .tm-vc_general .tm-vc_cta3_content-container .tm-vc_cta3-content .tm-vc_cta3-content-header h4{font-family:"Open Sans", Arial, Helvetica, sans-serif;font-weight:800;font-size:12px;line-height:14px;color:#000;}
+.tm-element-heading-wrapper .vc_general.vc_cta3 .vc_cta3-content p{font-family:"Arimo", Arial, Helvetica, sans-serif;font-size:14px;line-height:16px;color:#202020;}
+body .widget .widget-title, body .widget .widgettitle, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu > li.mega-menu-item > h4.mega-block-title, .portfolio-description h2, .thememount-portfolio-details h2, .thememount-portfolio-related h2{font-family:"Open Sans", Arial, Helvetica, sans-serif;font-weight:800;font-size:12px;line-height:14px;color:#000;}
+.woocommerce button.button, .woocommerce-page button.button, input, .vc_btn, .vc_btn3, .woocommerce-page a.button, .button, .wpb_button, button, .woocommerce input.button, .woocommerce-page input.button, .tp-button.big, .woocommerce #content input.button, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce-page #content input.button, .woocommerce-page #respond input#submit, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .thememount-post-readmore a{font-family:"Open Sans", Arial, Helvetica, sans-serif;font-weight:800;}
+.wpb_tabs_nav a.ui-tabs-anchor, body .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a, .vc_progress_bar .vc_label, .vc_tta.vc_general .vc_tta-tab > a, .vc_toggle_title > h4{font-family:"Arimo", Arial, Helvetica, sans-serif;font-size:14px;}
+.tm-titlebar h1.entry-title, .tm-titlebar-textcolor-custom .tm-titlebar-main .entry-title{font-family:"Open Sans", Arial, Helvetica, sans-serif;font-weight:800;font-size:12px;line-height:14px;color:#000;}
+.tm-titlebar .entry-subtitle, .tm-titlebar-textcolor-custom .tm-titlebar-main .entry-subtitle{font-family:"Open Sans", Arial, Helvetica, sans-serif;font-weight:800;font-size:12px;line-height:14px;color:#000;}
+.tm-titlebar .breadcrumb-wrapper, .tm-titlebar .breadcrumb-wrapper a{font-family:"Open Sans", Arial, Helvetica, sans-serif;font-weight:800;font-size:12px;line-height:14px;color:#000;}
+.headerlogo a.home-link{font-family:"Open Sans", Arial, Helvetica, sans-serif;font-weight:800;font-size:12px;line-height:14px;color:#000;}
+#site-header-menu #site-navigation div.nav-menu > ul > li > a, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal > li.mega-menu-item > a{font-family:"Open Sans", Arial, Helvetica, sans-serif;font-weight:800;font-size:12px;line-height:14px;color:#000;}
+ul.nav-menu li ul li a, div.nav-menu > ul li ul li a, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu a, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu a:hover, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu a:focus, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu a.mega-menu-link, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu a.mega-menu-link:hover, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu a.mega-menu-link:focus, #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu > li.mega-menu-item-type-widget{font-family:"Open Sans", Arial, Helvetica, sans-serif;font-weight:800;font-size:12px;line-height:14px;color:#000;}
+#site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu > li.mega-menu-item > h4.mega-block-title{font-family:"Open Sans", Arial, Helvetica, sans-serif;font-weight:800;font-size:12px;line-height:14px;color:#000;}
+                   
+
+
+/**
+ * 0. Sticky header bg color
+ * ----------------------------------------------------------------------------
+ */
+
+
+
+
+/**
+ * 0. header menu bg color
+ * ----------------------------------------------------------------------------
+ */
+	.site-header-menu.tm-header-menu-bg-color-custom{
+		background-color:rgba(0, 0, 255, 0.25) !important;
+	}
+	
+
+/**
+ * 0. Sticky menu bg color
+ * ----------------------------------------------------------------------------
+ */
+	.is_stuck.site-header-menu.tm-header-menu-bg-color-custom{
+		background-color:rgba(0, 0, 255, 0.25) !important;
+	}
+	
+
+
+
+
+/**
+ * 1. Background color
+ * ----------------------------------------------------------------------------
+ */
+
+.tm-col-bgcolor-skincolor > .tm-bg-layer,
+.tm-bgcolor-skincolor > .tm-bg-layer,
+.tm-titlebar-wrapper.tm-bgcolor-skincolor .tm-titlebar-wrapper-bg-layer{
+	background-color: ;
+}
+
+/* Cart icon background color */
+.tm-header-icons .tm-header-wc-cart-link span.number-cart,
+
+/* Testimonials Section */
+.thememount-box-view-default .thememount-box-author .thememount-box-img .thememount-icon-box,
+
+/* Progress Bar Section */
+span.tm-vc_label_units.vc_label_units,
+
+/* Accordion section */
+.vc_general.vc_tta-color-white.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-heading,
+
+/* Servicebox section */
+.tm-sbox:hover .tm-vc_icon_element.tm-vc_icon_element-outer .tm-vc_icon_element-inner.tm-vc_icon_element-background-color-grey.tm-vc_icon_element-outline,
+
+.tm-vc_btn3.tm-vc_btn3-color-skincolor.tm-vc_btn3-style-3d:focus, 
+.tm-vc_btn3.tm-vc_btn3-color-skincolor.tm-vc_btn3-style-3d:hover,
+
+.tm-vc_general.tm-vc_btn3.tm-vc_btn3-color-skincolor.tm-vc_btn3-style-outline:hover,
+.tm-vc_icon_element.tm-vc_icon_element-outer .tm-vc_icon_element-inner.tm-vc_icon_element-background-color-skincolor.tm-vc_icon_element-background,
+.tm-vc_general.tm-vc_btn3.tm-vc_btn3-color-skincolor,
+.tm-bgcolor-skincolor,
+.tm-col-bgcolor-skincolor,
+.tm-header-overlay .site-header.tm-sticky-bgcolor-skincolor.is_stuck,
+
+.thememount-box-view-top-image .thememount-box-team .thememount-box-social-links ul a:hover,
+.thememount-box-view-top-image .thememount-boxes .thememount-box-content.thememount-overlay .thememount-icon-box a:hover,
+.thememount-post-box-icon-wrapper{
+	background-color:  ;
+}
+
+.tm-span .tm-bg.tm-bgimage-yes.tm-bgcolor-skincolor,
+
+.thememount-box-team.thememount-box-view-left-image .thememount-box-team .thememount-overlay,
+.thememount-box-view-content-overlay .thememount-box-blog .thememount-box-content{
+    background-color: rgba( 0,0,0 , 0.80);
+}
+
+.tm-vc_general.tm-vc_btn3.tm-vc_btn3-style-3d.tm-vc_btn3-color-skincolor{
+	box-shadow: 0 5px 0 #000000;
+}
+.tm-vc_btn3.tm-vc_btn3-color-skincolor.tm-vc_btn3-style-3d:focus, 
+.tm-vc_btn3.tm-vc_btn3-color-skincolor.tm-vc_btn3-style-3d:hover {   
+    box-shadow: 0 2px 0 #000000;
+}
+
+
+
+
+/* This is Titlebar Background color */
+.tm-header-overlay .tm-titlebar-wrapper .tm-titlebar-inner-wrapper{	
+	padding-top: 100px;
+}
+
+/* This is Titlebar Text color */
+
+.tm-titlebar-wrapper .tm-titlebar-inner-wrapper{
+	height: 200px;	
+}
+.tm-header-overlay .thememount-titlebar-wrapper .tm-titlebar-inner-wrapper{	
+	padding-top: 130px;
+}
+.thememount-header-style-3.tm-header-overlay .tm-titlebar-wrapper .tm-titlebar-inner-wrapper{
+	padding-top: 155px;
+}
+
+/* Logo Max-Height */
+.headerlogo img{
+     max-height: 45px;
+}
+/*.headerlogo img.stickylogo{
+     margin-top: -45px;
+}*/
+.is_stuck .headerlogo img{
+     max-height: 70px;
+}
+/*.is_stuck .headerlogo img.stickylogo{
+     margin-top: -70px;
+}*/
+
+/* Extra Code */
+span.tm-sc-logo.tm-sc-logo-type-image {
+    position: relative;
+	display: block;
+}
+img.thememount-logo-img.stickylogo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.tm-stickylogo-yes .standardlogo{
+	opacity: 1;
+	-webkit-transition: 2s ease;
+	-moz-transition: 2s ease;
+	-o-transition: 2s ease;
+	-ms-transition: 2s ease;
+}
+.tm-stickylogo-yes .stickylogo{
+	opacity: 0;
+	-webkit-transition: 2s ease;
+	-moz-transition: 2s ease;
+	-o-transition: 2s ease;
+	-ms-transition: 2s ease;
+}
+.is_stuck .tm-stickylogo-yes .standardlogo{
+	opacity: 0;
+}
+.is_stuck .tm-stickylogo-yes .stickylogo{
+	opacity: 1;
+}
+
+#stickable-header,
+.thememount-header-style-4 #stickable-header .headercontent{
+	background-color: <br />
+<b>Notice</b>:  Undefined index: headerbgcolor in <b>E:\wamp\www\fixology\wp-content\themes\fixology\css\dynamic-style.php</b> on line <b>332</b><br />
+;
+}
+.tm-header-overlay.thememount-header-style-4 .is-sticky #stickable-header,
+.is-sticky #stickable-header{
+	background-color: #ffffff;
+}
+
+
+
+/**
+ * 2. Topbar Background color
+ * ----------------------------------------------------------------------------
+ */
+<br />
+<b>Notice</b>:  Undefined index: topbartextcolor in <b>E:\wamp\www\fixology\wp-content\themes\fixology\css\dynamic-style.php</b> on line <b>345</b><br />
+
+
+
+.tm-header-overlay header .thememount-topbar{
+	background-color: rgba( <br />
+<b>Notice</b>:  Undefined index: topbarbgcolor in <b>E:\wamp\www\fixology\wp-content\themes\fixology\css\dynamic-style.php</b> on line <b>365</b><br />
+0,0,0 , 0.5) ;
+}
+
+
+/**
+ * 4. Border color
+ * ----------------------------------------------------------------------------
+ */
+ 
+/* Progress Bar Section */
+span.tm-vc_label_units.vc_label_units:before{ 
+	border-color:  transparent; 
+}
+
+/* Accordion section */
+.vc_general.vc_tta-color-white.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-heading, 
+ 
+.tm-vc_general.tm-vc_btn3.tm-vc_btn3-color-skincolor.tm-vc_btn3-style-outline,
+.tm-vc_icon_element.tm-vc_icon_element-outer .tm-vc_icon_element-inner.tm-vc_icon_element-background-color-skincolor.tm-vc_icon_element-outline,
+.thememount-box-view-top-image .thememount-box-team .thememount-box-social-links ul a:hover, 
+.thememount-box-view-top-image .thememount-boxes .thememount-box-content.thememount-overlay .thememount-icon-box a:hover{
+	border-color: ;
+}
+
+
+
+/**
+ * 4. Textcolor
+ * ----------------------------------------------------------------------------
+ */
+
+
+
+/* Breadcrumb */ 
+.tm-bread-sep,
+.tm-textcolor-dark .tm-titlebar-main .breadcrumb-wrapper a,
+.tm-textcolor-white .tm-titlebar-main .breadcrumb-wrapper a,
+
+/* Menu hover and select section */ 
+#site-header-menu #site-navigation div.nav-menu > ul > li:hover > a,
+#site-header-menu #site-navigation div.mega-menu-wrap ul.mega-menu.mega-menu-horizontal > li.mega-menu-item:hover > a,  
+ 
+/* Testimonials Section */
+.tm-bgcolor-skincolor .thememount-box-view-default .thememount-box-author .thememount-box-img .thememount-icon-box,
+.thememount-box-view-default .thememount-box-author .thememount-author-name a:hover, 
+.thememount-box-view-default .thememount-box-desc:after, 
+.testimonial_item .thememount-author-name,
+ 
+/* Portfolio section*/
+.thememount-box.thememount-box-view-overlay .thememount-box-content h4 a:hover,
+.tm-textcolor-white a:hover, 
+
+/* Tab content section */
+.vc_general.vc_tta-color-grey.vc_tta-style-outline .vc_tta-tab>a:focus, 
+.vc_general.vc_tta-color-grey.vc_tta-style-outline .vc_tta-tab>a:hover,
+.vc_general.vc_tta-tabs.vc_tta-style-outline .vc_tta-tab.vc_active>a,
+.vc_general.vc_tta-color-grey.vc_tta-style-outline .vc_tta-panel.vc_active .vc_tta-panel-title>a,
+.vc_general.vc_tta-color-grey.vc_tta-style-outline .vc_tta-panel .vc_tta-panel-title>a:hover, 
+
+/* Vcbutton section */
+.tm-vc_general.tm-vc_btn3.tm-vc_btn3-color-skincolor.tm-vc_btn3-style-outline, 
+.tm-vc_btn_skincolor.tm-vc_btn_outlined, .tm-vc_btn_skincolor.vc_btn_square_outlined, 
+.tm-vc_icon_element.tm-vc_icon_element-outer .tm-vc_icon_element-inner.tm-vc_icon_element-color-skincolor .tm-vc_icon_element-icon,  
+.tm-vc_general.tm-vc_btn3.tm-vc_btn3-style-text.tm-vc_btn3-color-skincolor,
+.tm-fid-icon-wrapper i,
+
+
+/* Teammember section */
+.thememount-box-team.thememount-box-view-top-image .thememount-box-content h4 a:hover,
+.thememount-box-team.thememount-box-view-left-image .tm-team-social-links-wrapper li a:hover,
+.tm-bgcolor-skincolor .thememount-box-team .thememount-box-content h4 a:hover,
+
+.thememount-box-view-overlay .thememount-boxes .thememount-box-content.thememount-overlay .thememount-icon-box a:hover,
+.tm-textcolor-skincolor,
+.tm-textcolor-skincolor a,
+.thememount-box-title h4 a:hover,
+.thememount-blogbox-footer-readmore a:hover,
+
+/* Text color skin in row secion*/
+.tm-background-image.tm-row-textcolor-skin h1, 
+.tm-background-image.tm-row-textcolor-skin h2, 
+.tm-background-image.tm-row-textcolor-skin h3, 
+.tm-background-image.tm-row-textcolor-skin h4, 
+.tm-background-image.tm-row-textcolor-skin h5, 
+.tm-background-image.tm-row-textcolor-skin h6,
+.tm-background-image.tm-row-textcolor-skin .tm-element-heading-wrapper h2,
+.tm-background-image.tm-row-textcolor-skin .thememount-testimonial-title,
+.tm-background-image.tm-row-textcolor-skin a,
+.tm-background-image.tm-row-textcolor-skin .item-content a:hover,
+
+.tm-row-textcolor-skin h1, 
+.tm-row-textcolor-skin h2, 
+.tm-row-textcolor-skin h3, 
+.tm-row-textcolor-skin h4, 
+.tm-row-textcolor-skin h5, 
+.tm-row-textcolor-skin h6,
+.tm-row-textcolor-skin .tm-element-heading-wrapper h2,
+.tm-row-textcolor-skin .thememount-testimonial-title,
+.tm-row-textcolor-skin a,
+.tm-row-textcolor-skin .item-content a:hover{
+	color: ;
+}
+
+
+
+
+/* Dynamic main menu color applying to responsive menu link text */
+.header-controls .search_box i.tmicon-fa-search,
+.righticon i,
+.menu-toggle i,
+.header-controls a{
+    color: rgba( 0,0,0 , 1) ;
+}
+
+
+
+   
+.menu-toggle i:hover,
+.header-controls a:hover {
+    color:  !important;
+}
+#site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu > li.mega-menu-item-type-widget div{
+	color: rgba( 0,0,0 , 0.8);
+    font-weight: normal;
+}
+#site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal .mega-sub-menu > li.mega-menu-item-type-widget div.textwidget{
+	padding-top: 10px;
+}
+
+
+
+
+/*Logo Color --------------------------------*/ 
+h1.site-title{
+	color: #000;
+}
+
+
+
+/**
+ * 9. Genral Elements
+ * ----------------------------------------------------------------------------
+ */
+
+/* Site Pre-loader image */
+.pageoverlay{
+	background-image:url('../images/loader1.gif');
+}
+
+
+
+
+
+
+
+
+/* ********************* Responsive Menu Code Start *************************** */
+/* ********************** Responsive Menu Code END **************************** */
+
+
+
+
+/******************************************************/
+/******************* Custom Code **********************/
+
+
+/******************************************************/

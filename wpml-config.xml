@@ -1,0 +1,184 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">tm_portfolio</custom-type>
+    <custom-type translate="1">tm_team_member</custom-type>
+    <custom-type translate="1">tm_testimonial</custom-type>
+    <custom-type translate="1">tm_client</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">tm_portfolio_category</taxonomy>
+    <taxonomy translate="1">tm_team_group</taxonomy>
+    <taxonomy translate="1">tm_testimonial_group</taxonomy>
+    <taxonomy translate="1">tm_client_group</taxonomy>
+  </taxonomies>
+  <admin-texts>
+    <key name="fixology_theme_options">
+      <key name="global_background">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="inner_background">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="fbar_background">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="topbar_left_text"/>
+      <key name="topbar_right_text"/>
+      <key name="titlebar_background">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="adv_tbar_catarc"/>
+      <key name="adv_tbar_tagarc"/>
+      <key name="adv_tbar_postclassified"/>
+      <key name="adv_tbar_authorarc"/>
+      <key name="vertical_header_background">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="logotext"/>
+      <key name="logoimg">
+        <key name="id"/>
+        <key name="thumb-url"/>
+        <key name="full-url"/>
+      </key>
+      <key name="logoimg_sticky">
+        <key name="id"/>
+        <key name="thumb-url"/>
+        <key name="full-url"/>
+      </key>
+      <key name="search_input"/>
+      <key name="infostack_first_col_content"/>
+      <key name="infostack_second_col_content"/>
+      <key name="infostack_third_col_content"/>
+      <key name="header_text"/>
+      <key name="header_btn_text"/>
+      <key name="dropmenu_background">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="dropmenu_background_1">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="dropmenu_background_2">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="dropmenu_background_3">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="dropmenu_background_4">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="dropmenu_background_5">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="dropmenu_background_6">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="dropmenu_background_7">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="dropmenu_background_8">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="dropmenu_background_9">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="dropmenu_background_10">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="full_footer_bg_all">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="first_footer_bg_all">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="second_footer_bg_all">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="bottom_footer_bg_all">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="footer_copyright_left"/>
+      <key name="footer_copyright_right"/>
+      <key name="login_background">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="blog_readmore_text"/>
+      <key name="post_social_share_services_title"/>
+      <key name="blogbox_meta_dateformat"/>
+      <key name="portfolio_related_title"/>
+      <key name="pf_details_line">
+        <key name="0">
+          <key name="pf_details_line_title"/>
+        </key>
+        <key name="1">
+          <key name="pf_details_line_title"/>
+        </key>
+        <key name="2">
+          <key name="pf_details_line_title"/>
+        </key>
+        <key name="3">
+          <key name="pf_details_line_title"/>
+        </key>
+        <key name="4">
+          <key name="pf_details_line_title"/>
+        </key>
+      </key>
+      <key name="portfolio_single_top_btn_title"/>
+      <key name="team_extra_details_lines">
+        <key name="0">
+          <key name="team_extra_details_line_title"/>
+        </key>
+        <key name="1">
+          <key name="team_extra_details_line_title"/>
+        </key>
+        <key name="2">
+          <key name="team_extra_details_line_title"/>
+        </key>
+        <key name="3">
+          <key name="team_extra_details_line_title"/>
+        </key>
+      </key>
+      <key name="error404_big_text"/>
+      <key name="error404_medium_text"/>
+      <key name="searchnoresult"/>
+      <key name="uconstruction_title"/>
+      <key name="uconstruction_html"/>
+      <key name="uconstruction_background">
+        <key name="image"/>
+        <key name="imageid"/>
+      </key>
+      <key name="pf_type_title"/>
+      <key name="pf_type_title_singular"/>
+      <key name="pf_type_slug"/>
+      <key name="pf_cat_title"/>
+      <key name="pf_cat_title_singular"/>
+      <key name="pf_cat_slug"/>
+      <key name="team_type_title"/>
+      <key name="team_type_title_singular"/>
+      <key name="team_type_slug"/>
+      <key name="team_group_title"/>
+      <key name="team_group_title_singular"/>
+      <key name="team_group_slug"/>
+    </key>
+  </admin-texts>
+</wpml-config>
